@@ -15,7 +15,7 @@ sudo apt-get install libboost-all-dev
 [Eigen Documentation](http://eigen.tuxfamily.org/index.php?title=Main_Page)  
 [Boost Documentation](https://www.boost.org/)  
 
-**If running from Linux, **add** the libraries to the `/usr/include/`**   
+**If running from Linux, **add** the libraries to the `/usr/include/` directory**   
 
 ```
 mv library /usr/include/
