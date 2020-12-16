@@ -1,6 +1,8 @@
 # Reading CSV files with Eigen and Boost  
 
-*The `Makefile` is using the `clang++` compiler. If you are using the `g++` compiler, make sure to change the `CXX` variable.*  
+If using a CSV file different than **winedata** or **i (insurance)**, just add the CSV file to the same directory and change the name in the `Makefile`.  
+
+The `Makefile` is using the `clang++` compiler. If you are using the `g++` compiler, make sure to change the `CXX` variable.    
 
 ### Compile using **Make**  
 
