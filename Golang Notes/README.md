@@ -9,4 +9,4 @@ After running this command, go to any browser and type **any** of the URL's that
 For example, the https://127.0.0.1:8888.  
 
 # Information  
-[Gopher Notes Repository](https://github.com/gopherdata/gophernotes)
+[gopher notes Repository](https://github.com/gopherdata/gophernotes)
