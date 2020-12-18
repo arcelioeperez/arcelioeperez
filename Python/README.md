@@ -8,7 +8,7 @@
 2. Run the following commands  
 
 ```
-pip3 install -r requirements.txt
+pip3 install pandas
 chmod +x csvtojson
 ./csvtojson
 ```  
