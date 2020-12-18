@@ -12,3 +12,6 @@ pip3 install pandas
 chmod +x csvtojson
 ./csvtojson
 ```  
+
+Based on:  
+[DataFish.com - Tutorial](https://datatofish.com/csv-to-json-string-python/)
