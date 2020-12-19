@@ -4,6 +4,9 @@ If using a CSV file different than **winedata** or **i (insurance)**, just add t
 
 The `Makefile` is using the `clang++` compiler. If you are using the `g++` compiler, make sure to change the `CXX` variable.    
 
+Use the `-S` to see the Assembly Language representation.  
+See more about compiler flags [here](https://www.hpc2n.umu.se/documentation/compilers/flags).  
+
 ### Compile using **Make**  
 
 ```
