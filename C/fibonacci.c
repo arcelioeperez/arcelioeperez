@@ -2,13 +2,15 @@
 
 #include <stdio.h>
 
+#define UPPER 255 //Upper level 255
+
 int main() { 
 	int x = 0; 
 	int y = 1; 
 	int z; 
 	
-	while (z <= 255) { 
-		printf("%d\n", z); 
+	while (x <= UPPER) { 
+		printf("%d\n", x); 
 		z = x + y; 
 		x = y; 
 		y = z;
