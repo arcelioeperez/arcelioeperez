@@ -16,5 +16,5 @@ docker run -it -p 8888:8888 gopherdata/gophernotes:latest-ds
 After running this command, go to any browser and type **any** of the URL's that appear in the terminal.  
 For example, the https://127.0.0.1:8888.  
 
-# Information  
+# More Information  
 [gophernotes Repository](https://github.com/gopherdata/gophernotes)
