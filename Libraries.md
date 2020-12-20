@@ -1,7 +1,7 @@
 # Machine Learning  
 
--Boost Library  
--Eigen  
+- Boost Library  
+- Eigen  
 
 **Installing with apt:**    
 
