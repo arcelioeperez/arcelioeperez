@@ -1,2 +1,2 @@
-# Algorithms found in the book  
+# Algorithms  
 
