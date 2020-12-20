@@ -35,7 +35,7 @@ clang++ -I /path/to/the/libary
 #include <Eigen/path/to/the/header/file> 
 ```
 
-**If there is an error (usually if running from Linux) - Note on MacOS. Define `NDEBUG` in the first line**    
+**If there is an error (usually if running from Linux). Define `NDEBUG` in the first line**    
 ```
 #define NDEBUG  
 ```  
