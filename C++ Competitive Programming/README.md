@@ -13,6 +13,13 @@ make
 #to remove the executable file
 make clean
 ```  
+
+**Alternatively compile using `clang++` or `g++`, then run using `./e`:**  
+```
+clang++ -Wall -O2 -std=c++11 -o *.cpp e
+g++ -Wall -O2 -std=c++11 -o *.cpp e
+```  
+
 **Information about makefile:**  
 Compiler used: `clang++`   
 Flags used: `-Wall` `-O2` `-std=c++11`  
