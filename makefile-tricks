@@ -1,0 +1,15 @@
+all: run 
+CXX =  clang++ 
+CXXFLAGS = -Wall -std=c++17
+
+e:
+	$(CXX) $(CXXFLAGS) -o e Tricks.cpp 
+
+.PHONY: all run clean
+
+run: e
+	./e
+
+clean:
+	rm e
+
