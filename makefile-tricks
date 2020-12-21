@@ -1,3 +1,4 @@
+#makefile for the Tricks.cpp file
 all: run 
 CXX =  clang++ 
 CXXFLAGS = -Wall -std=c++17

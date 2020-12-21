@@ -1,3 +1,4 @@
+//Run with makefile-tricks 
 /*
 Citation: GeeksForGeeks 
 
