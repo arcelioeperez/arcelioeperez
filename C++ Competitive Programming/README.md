@@ -16,8 +16,8 @@ make clean
 
 **Alternatively compile using `clang++` or `g++`, then run using `./e`:**  
 ```
-clang++ -Wall -O2 -std=c++11 -o *.cpp e
-g++ -Wall -O2 -std=c++11 -o *.cpp e
+clang++ -Wall -O2 -std=c++11 -o e *.cpp 
+g++ -Wall -O2 -std=c++11 -o e *.cpp 
 ```  
 
 **Information about makefile:**  
