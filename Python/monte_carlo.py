@@ -2,6 +2,8 @@
 Monte Carlo Simulation
 From the book: Python for Finance -Yves Hilpisch (page 300)
 
+***The code was modified to use OOP - it originally was a function***
+
 Variables: 
 M: intervals 
 I: paths 
