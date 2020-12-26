@@ -39,28 +39,35 @@ class MonteCarlo:
     def __init__(self, M, I): 
         self.M = M
         self.I = I
+        self.T = 1.0 
+        self.S0 = 36 
+        self.r = 0.06 
+        self.sigma = 0.02 
+        self.dt = self.T / self.M 
+        self.S = np.zeros((self.M + 1, self.I))
     def get_s(self): 
-        T = 1.0
-        S0 = 36 
-        r = 0.06
-        sigma = 0.2
-        dt = T / self.M
-        S = np.zeros((self.M + 1, self.I))
-
-        S[0] = S0 
-        rn = np.random.standard_normal(S.shape)
-    
+        self.S[0] = self.S0 
+        rn = np.random.standard_normal(self.S.shape)
         #Euler scheme 
         for t in range(1, self.M + 1):
-            S[t] = S[t-1] * np.exp((r - sigma ** 2 / 2) * dt + sigma * math.sqrt(dt) * rn[t])
-        return S  
-    
+            self.S[t] = self.S[t-1] * np.exp((self.r - self.sigma ** 2 / 2)
+                    * self.dt + self.sigma * math.sqrt(self.dt) * rn[t])
+        return self.S 
+    def mean_end(self): 
+        return self.S[-1].mean()
+    def end_value(self): 
+        return self.S0 * math.exp(self.r * self.T)
+    def estimator(self, K): 
+        self.K = K 
+        C = math.exp(-self.r * self.T) * np.maximum(self.K - self.S[-1], 0).mean()
+        return C
     def plotter(self):
         end = []
-        for i in MonteCarlo.get_s(self): 
+        for i in self.S: 
            #plt.hist(MonteCarlo.get_s(self), bins = 3)
             end.append(i[-1])
         plt.plot(end)
+        plt.title("Simulated End-Of-Period Values - i.e. S[-1]")
         return plt.show()
     
 """
@@ -101,6 +108,9 @@ M = 10
 I = 500
 #Creates the 'S' object with interval 10 and number of paths 500
 S = MonteCarlo(M, I)
-
+print("S = ", S.get_s())
+print("Mean End-Of-Period Value: ", (S.mean_end()))
+print("Expected End-Of-Period Value: ", S.end_value()) 
+print("C (estimator) for the put option with strike-price of K = 40: ",S.estimator(K = 40))
 #Calls the plotter method - plots the end of period values
 S.plotter()
