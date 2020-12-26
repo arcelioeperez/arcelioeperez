@@ -109,7 +109,7 @@ I = 500
 #Creates the 'S' object with interval 10 and number of paths 500
 S = MonteCarlo(M, I)
 print("S = ", S.get_s())
-print("Mean End-Of-Period Value: ", (S.mean_end()))
+print("Mean End-Of-Period Value: ", S.mean_end())
 print("Expected End-Of-Period Value: ", S.end_value()) 
 print("C (estimator) for the put option with strike-price of K = 40: ",S.estimator(K = 40))
 #Calls the plotter method - plots the end of period values
