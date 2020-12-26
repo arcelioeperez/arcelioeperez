@@ -1,7 +1,7 @@
 # Projects  
 ### Finance Projects  
 Monte Carlo Simulation (using Numpy)  
- 
+![plot](monte_carlo_plot.png)  
 Based on:  
 Python for Finance - Yves Hilpisch
 
