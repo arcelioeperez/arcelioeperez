@@ -75,9 +75,6 @@ for i in S.get_s():
 plt.plot(end)
 plt.show()
 
----------------------
-Example
----------------------
 end = []
 for i in S.get_s(): 
     for j in i:
@@ -86,7 +83,9 @@ for i in S.get_s():
 plt.plot(end[-11:-1])
 plt.show()
 
-
+-----------------------
+i[-1] takes the end of each list
+----------------------
 a = [[2,4,6], [3,5,2], [3,5,8]]
 for i in a: 
     print(i[-1])
