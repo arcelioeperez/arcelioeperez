@@ -1,3 +1,6 @@
-# Think Like a Programmer - V. Anton Spraul  
+# Solutions to the problems  
 
-Solutions to the problems
+### Citation:  
+
+Book: Think Like a Programmer - V. Anton Spraul  
+
