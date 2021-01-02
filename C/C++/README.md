@@ -7,6 +7,8 @@ The `Makefile` is using the `clang++` compiler. If you are using the `g++` compi
 Use the `-S` to see the Assembly Language representation.  
 See more about compiler flags [here](https://www.hpc2n.umu.se/documentation/compilers/flags).  
 
+More inforamtion about Eigen and Boost: [here](arcelioeperez/Libraries.md)  
+
 ### Compile using **Make**  
 
 ```
