@@ -1,7 +1,7 @@
 """
 Monte Carlo Simulation - Black Scholes Merton Differential Equation
 ***Example is of a Put Option*** 
-***The Black Scholes Merton model only applied to European Options***
+***The Black Scholes Merton model only applies to European Options***
 
 From the book: Python for Finance -Yves Hilpisch (page 300)
 
