@@ -8,5 +8,5 @@ make
 
 **Citation:**    
 
-Book: Think Like a Programmer - V. Anton Spraul  
+[Book](https://nostarch.com/thinklikeaprogrammer): Think Like a Programmer - V. Anton Spraul  
 
