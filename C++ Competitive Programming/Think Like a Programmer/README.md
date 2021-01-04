@@ -1,6 +1,12 @@
 # Solutions to the problems  
 
-### Citation:  
+**Compile and run with `makefile`:**    
+
+```
+make 
+```
+
+**Citation:**    
 
 Book: Think Like a Programmer - V. Anton Spraul  
 
