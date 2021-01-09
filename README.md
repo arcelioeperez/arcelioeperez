@@ -5,8 +5,8 @@ The following pinned repositories represent an overview of the many projects in 
 Languages used:  
 C  
 C++    
-Golang  
-Python
+Go (Golang)    
+Python  
 
 
 Text Editor used: VIM  
