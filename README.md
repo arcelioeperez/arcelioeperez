@@ -2,7 +2,7 @@
 
 The following pinned repositories represent an overview of the many projects in my portfolio. To access projects not highlighted below, [click here](https://github.com/arcelioeperez?tab=repositories).  
 
-Languages used to create reports:  
+Languages used:  
 C  
 C++    
 Golang  
