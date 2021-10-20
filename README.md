@@ -5,9 +5,12 @@ The following pinned repositories represent an overview of the many projects in 
 Languages used:  
 C  
 C++    
-Go (Golang)    
 Python  
+Go  
+React & React Native  
 
+Text Editor used: VIM & VS Code
+- Why VIM?  
+  - Because it is highly efficient  
 
-Text Editor used: VIM  
-OS used: Linux Ubuntu 20.04.1 LTS  
+OS used: Linux Ubuntu, Linux Manjaro, and MacOS
