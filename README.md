@@ -7,10 +7,12 @@ C
 C++    
 Python  
 Go  
+
+Frameworks:  
 React & React Native  
 
 Text Editor used: VIM & VS Code
-- Why VIM?  
-  - Because it is highly efficient  
+Why VIM?  
+- Because it is highly efficient  
 
-OS used: Linux Ubuntu, Linux Manjaro, and MacOS
+OS used: Linux Ubuntu, Manjaro, and MacOS
