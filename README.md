@@ -11,8 +11,6 @@ Go
 Frameworks:  
 React & React Native  
 
-Text Editor used: VIM & VS Code
-Why VIM?  
-- Because it is highly efficient  
+Text Editor used: VIM & VS Code  
 
 OS used: Linux Ubuntu, Manjaro, and MacOS
